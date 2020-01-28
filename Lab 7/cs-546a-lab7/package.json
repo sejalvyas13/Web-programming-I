@@ -1,0 +1,17 @@
+{
+  "name": "cs-546a-lab7",
+  "version": "1.0.0",
+  "description": "Lab 7",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "author": "Sejal Vyas 10450395",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.3.3",
+    "uuid": "^3.3.3"
+  }
+}

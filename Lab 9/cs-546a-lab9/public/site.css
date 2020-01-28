@@ -1,0 +1,60 @@
+li.is-prime{
+    color: #00E676;
+}
+li.not-prime{
+    color: #FF3D00;
+}
+
+main {
+    max-width: 75%;
+    margin: auto;
+}
+
+body {
+    background: #fefefe;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 15pt;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+header {
+    border-bottom: 1px solid #afafaf;
+}
+
+h1,
+h2{
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.label-style{
+    font-size: 1.5rem; 
+}
+
+.h1-style{
+    color: #7c795d;
+    font-family: 'Trocchi', serif;
+    font-size: 45px;
+    font-weight: normal;
+    line-height: 48px;
+    margin: 5px;
+}
+
+ol{
+    background-color: ivory;
+}
+
+.footer-style{
+    font-family: Verdana, Geneva, sans-serif;
+ font-size: 0.7em;
+ font-weight: bold;
+ color: #FFF;
+ background-color: #666;
+ padding: 10px;
+ margin: 20px;
+ height: auto;
+ width: 90%;
+}

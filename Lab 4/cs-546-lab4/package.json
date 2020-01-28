@@ -1,0 +1,15 @@
+{
+  "name": "cs-546-lab4",
+  "version": "1.0.0",
+  "description": "Lab 4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "author": "Sejal Vyas 10450395",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.3.2"
+  }
+}

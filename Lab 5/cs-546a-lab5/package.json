@@ -1,0 +1,14 @@
+{
+  "name": "cs-546a-lab5",
+  "version": "1.0.0",
+  "description": "Lab 5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sejal Vyas 10450395",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
+}

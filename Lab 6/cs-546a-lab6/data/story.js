@@ -1,0 +1,10 @@
+async function getStoryData(){
+    const myStory = {
+        "storyTitle": "When Google Maps suggested a long detour!",
+        "story": "It was a bright sunny day when I went with my friends on a road trip for wine tasting. After a pleasant day, we decided to leave early to avoid driving after sunset. We left at about 4pm and covered half of our journey in about 2 hours. It was four of us and we were quite satisfied since we were running on time which meant we could take a halt for dinner. One of my friends suggested that we continue driving at this speed, and eat at home. Doing this would save us from late night drives and the risks associated with it. So we continued driving without taking any halt. \n We were on a national highway and I was navigating. After driving for approximately three, I get a suggestion from Google Maps to take a detour off the national highway. This detour, according to the app, would make us reach our destination one hour earlier. So all of us agree to take it. It was a single lane road, with no street lights. The vicinity had dense plantations. The road, due to its presence in the middle of a forest, was in no good condition for us to drive any faster than 40km/hr. We were the slowest in this route. Thirty minutes into this detour and all of us regretted the decision. We thought of turning back but that would add on additional hour to our drive. We continued on that same route, hoping for every turn to lead us to some good road wherein we could drive faster. \n This supposedly faster detour took us more time, than we had already spent before it. A five hour drive, with this detour took us more than seven hours to reach our destination. Although with the detour, the effective distance was less, it took us more time given the condition of the road. So next time you get a suggestion for a detour from Google Maps, think twice before taking it!"
+    };
+        
+    return myStory; 
+}
+
+module.exports = {getStoryData};

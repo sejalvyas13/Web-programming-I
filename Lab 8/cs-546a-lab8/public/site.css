@@ -1,0 +1,204 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 14pt;
+}
+
+body {
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+main {
+  max-width: 75%;
+  margin: auto;
+}
+
+header {
+  border-bottom: 1px solid #afafaf;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #222;
+  margin-bottom: 5px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.15rem;
+}
+
+h6 {
+  font-size: 1.05rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 2;
+}
+
+.post {
+  width: 75%;
+  border-bottom: 1px dashed #333;
+}
+
+.new-post-form {
+  max-width: 300px;
+}
+
+.new-post-form .full-width-input {
+  display: block;
+  min-height: 3em;
+  margin: 10px 0;
+  width: 100%;
+}
+
+label {
+  font-weight: bold;
+}
+
+.error-list li {
+  color: #ff0000;
+}
+
+.author-link,
+.author-link:link {
+  color: #228b22;
+}
+
+.author-link:visited {
+  font-style: italic;
+}
+
+.author-link:hover {
+  font-style: normal;
+  font-weight: 700;
+}
+
+.author-link:active {
+  color: #ff0000;
+}
+
+button.btn-style{
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  width: 100px;
+  height: 30px;
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  cursor: pointer;
+  
+}
+
+label.label-style{
+    display:block;
+    padding: 10px;
+}
+
+input.input-style{
+  display:block;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+p.p-main{
+  display:block;
+  padding: 20px;
+  background-color: honeydew;
+}
+h1.h1-main{
+  display:block;
+  padding: 20px;
+}
+
+ul.search {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ 
+li.search {
+  font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+}
+ 
+li:last-child {
+  border: none;
+}
+ 
+li a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  width: 200px;
+ 
+  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+  transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+ 
+li a:hover {
+  font-size: 30px;
+  background: #f6f6f6;
+}
+a.search{
+  text-decoration: none;
+  color: #000;
+  display: block;
+  width: 200px;
+  margin:50px;
+  cursor: pointer;
+  background-color: honeydew;
+}
+
+dl.details {
+  border: 3px double #ccc;
+  margin: 10 10 10 110px;
+  padding: 0.5em;
+}
+dt.details {
+  float: left;
+  clear: left;
+  text-align: right;
+  font-weight: bold;
+  color: green;
+}
+dt::after {
+  content: ":";
+  margin : 10px;
+}
+dd.details {
+  margin: 10 10 10 110px;
+  padding: 0 0 0.5em 0;
+}
+h2.h2-details{
+  background-color: honeydew; 
+}
+p.error{
+  background-color: honeydew; 
+}
+p.not-found{
+  background-color: honeydew; 
+}
